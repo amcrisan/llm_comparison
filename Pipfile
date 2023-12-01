@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+watchdog = "*"
+python-dotenv = "*"
+pandas = "*"
+openai = "*"
+numpy = "*"
+flask = "*"
+ipykernel = "*"
+seaborn = "*"
+huggingface-hub = "*"
+langchain = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+app = "streamlit run app.py"
+test = "streamlit hello"

@@ -1,0 +1,8 @@
+{
+    "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport base64\nfrom io import BytesIO\n\n# Load the Titanic dataset\nfile_path = './workspace/Titanic-Dataset.csv'\ntitanic_data = pd.read_csv(file_path)\n\n# Create a bar plot of survival rate by class\nsns.set(style=\"whitegrid\")\nplt.figure(figsize=(10, 6))\nplot = sns.barplot(x=\"Pclass\", y=\"Survived\", data=titanic_data, ci=None, palette=\"muted\")\nplt.title(\"Survival Rate by Class\")\nplt.xlabel(\"Class\")\nplt.ylabel(\"Survival Rate\")\n\n# Save the plot to a BytesIO object\nimage_stream = BytesIO()\nplt.savefig(image_stream, format='png')\nplt.close()\n\n# Convert the image to base64\nimage_base64 = base64.b64encode(image_stream.getvalue()).decode('utf-8')\n\n# Print the base64 string\nprint(image_base64)",
+    "visualization_info": {
+      "columns": ["Pclass", "Survived"],
+      "chart_type": "bar"
+    }
+  }
+  

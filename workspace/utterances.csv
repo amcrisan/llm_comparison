@@ -1,0 +1,209 @@
+PID,Context Shift,Anaphoric Reference,Utterance,Chunk
+P03,Explicit,No,How many people survived?,1
+P03,Explicit,No,Show age bins,1
+P03,Explicit,No,What are the top 5 age bins that survived?,1
+P03,Explicit,No,color survived by class,1
+P03,Explicit,No,show only female,1
+P03,Explicit,No,show only male,1
+P03,Explicit,No,start over,1
+P03,Explicit,No,show survived colored by parents on board,2
+P03,Explicit,No,color sibilings,2
+P03,Explicit,No,start over,2
+P03,Explicit,No,class colored by fare bin,3
+P03,Explicit,No,show by survival,3
+P04,Implicit,No,how many passengers were on the Titanic?,1
+P04,Implicit,No,How many passengers were over the age of 40?,1
+P04,Implicit,No,How many of them had families with children?,1
+P04,Implicit,No,How many passengers were over the age of 40?,1
+P04,Implicit,No,How many children were aboard the Titanic under the age of 10?,1
+P04,Implicit,No,How many people oer the age of 40 survived?,2
+P04,Implicit,No,How much did each passenger pay to board the Titanic?,3
+P04,Implicit,No,How many of these passengers survived?,3
+P04,Implicit,No,Show me the classes these passengers were in,3
+P04,Implicit,No,how many survivors in each class?,4
+P04,Implicit,No,How many passengers are over the age of 40?,4
+P04,Implicit,No,show me the genders,4
+P12,Explicit,No,what was the survival rate by fare bin,1
+P12,Explicit,Yes,can this be broken down by age bin?,1
+P12,Explicit,Yes,show this by count instead of percent,1
+P12,Explicit,No,show survived yes and no in the count,1
+P12,Explicit,No,show as count instead of percent,1
+P12,Explicit,No,break this down by sex,1
+P12,Explicit,No,start over,1
+P12,Explicit,No,plot fare versus percent survived,2
+P12,Explicit,Yes,make this a scatter plot,2
+P12,Explicit,Yes,color code this by sex,2
+P14,Explicit,No,what percentage of survivors were female?,1
+P14,Explicit,No,what is the survival percentage by class?,1
+P14,Explicit,No,what percentage survived by age in 5 year age bins,1
+P14,Explicit,Yes,show this as a stacked column chart by class,1
+P14,Explicit,Yes,show this viz as a pie chart,1
+P14,Explicit,No,clear viz,1
+P14,Explicit,No,show a buble chart of survivors by class,2
+P15,Explicit,No,What percentage of passengers survived?,1
+P15,Explicit,Yes,Split the view by class,1
+P15,Explicit,No,Show me survivors by age and class,1
+P15,Explicit,No,Put class on the Y axis,1
+P15,Explicit,Yes,Color this by survival,1
+P15,Explicit,No,Stack the bars,1
+P15,Explicit,No,start over,1
+P15,Explicit,No,"show survivors by age, sex, class, and fare",2
+P15,Explicit,No,just first class,2
+P15,Explicit,No,start over,2
+P15,Explicit,No,show me all the passengers by fare vs age colored by class,3
+P15,Explicit,No,swap the axes,3
+P15,Explicit,No,include the averages by class,3
+P16,Explicit,No,what was the average fare for survivors,1
+P16,Explicit,Yes,How old where these people?,1
+P16,Explicit,No,Color by class,1
+P16,Explicit,No,start over,1
+P16,Explicit,No,what prorportion of people in each class survived?,2
+P16,Explicit,No,label number of records,2
+P16,Explicit,No,color by parents on board,2
+P16,Explicit,No,color by sex,2
+P16,Explicit,No,stratify by age group,2
+P16,Explicit,No,start over,2
+P16,Explicit,No,proportion of survivors by age,3
+P16,Explicit,No,label number of people,3
+P16,Explicit,No,color by class,3
+P17,Implicit,No,what is the distribution of survivors by fare,1
+P17,Implicit,Yes,split this data by survived status,1
+P17,Implicit,No,non survivors by sex,2
+P17,Implicit,No,survivors by age,3
+P17,Implicit,No,survivors by age and sex,3
+P17,Implicit,No,scatter plot of survivla status by age and fare,4
+P17,Implicit,No,add a trend line,4
+P17,Implicit,No,split by class,4
+P17,Implicit,No,remove class,4
+P22,Explicit,No,who survived?,1
+P22,Explicit,No,what class were people in?,1
+P22,Explicit,No,who survived by class?,1
+P22,Explicit,No,start over,1
+P22,Explicit,No,"logistic regression of survived by class, income, age, sex",2
+P22,Explicit,No,start over,2
+P22,Explicit,No,percent of people who survived by age bin,3
+P22,Explicit,No,add percent of total color by class,3
+P22,Explicit,No,start over,3
+P22,Explicit,No,percent of total survivors by class and age,4
+P23,Explicit,No,what is the count of people by age that survived?,1
+P23,Explicit,No,top five age bins that survived in decreasing ordered by count of people,1
+P23,Explicit,No,start over,1
+P23,Explicit,No,count of people where age bin between 30 and 30 and parents and/or children aboard is yes,2
+P23,Explicit,No,start over,2
+P23,Explicit,No,count of people who survived by sex,3
+P23,Explicit,No,start over,3
+P23,Explicit,No,people by parents and/or children aboard,4
+P23,Explicit,No,count of survival by age bin and parents and/or children aboard,4
+P24,NA,No,what proportion of males and females survived?,1
+P24,NA,No,what percentage of males survived?,1
+P24,NA,No,what percentage of males and females survived by class,1
+P24,NA,No,can you break dow nteh classes by age please?,1
+P25,Implicit,No,which age group parents were on board,1
+P25,Implicit,No,do parents or siblins stayed in higher fare class survived?,2
+P25,Implicit,No,how many parents or sibilings compared to the entire parents of sibilinbs count survived by staying in higher fare class?,2
+P28,Implicit,No,total number of people who survived,1
+P28,Implicit,No,age group of people survived,1
+P28,Implicit,No,how many females survived,2
+P28,Implicit,No,what is their age group?,2
+P28,Implicit,No,how many passengers total?,3
+P28,Implicit,No,female survivors by age,4
+P28,Implicit,No,fare paid by female survivors,4
+P28,Implicit,No,don't bin it,4
+P28,Implicit,No,female survivors with children or parents,5
+P29,Implicit,No,who survived by age?,1
+P29,Implicit,No,what percentage of each age bin survived?,1
+P29,Implicit,No,how many people survived in each age bin?,1
+P29,Implicit,No,"how many sruvived, and what percentage ,by sex?",2
+P29,Implicit,No,"how many sruvived, and what percentage, by class",2
+P29,Implicit,No,% survived by having parents or siblings on board?,3
+P29,Implicit,No,Just keep siblings and/or spouses,3
+P29,Implicit,No,broken down further by sex,3
+P29,Implicit,No,replace siblings with parents,3
+P29,Implicit,No,is there a correlation between fare and survival rate?,4
+P30,Explicit,No,percentage of women and childern who survived,1
+P30,Explicit,No,% of female who survived,1
+P30,Explicit,No,% of children who survived,1
+P30,Explicit,No,reset,1
+P30,Explicit,No,% of people survived below the age of 18,2
+P30,Explicit,No,population split by class,2
+P30,Explicit,No,reset,2
+P30,Explicit,No,% of survival by class,3
+P30,Explicit,No,with parents or children,3
+P30,Explicit,No,with siblings or spouses,3
+P30,Explicit,No,reset,3
+P30,Explicit,No,% survived by sex and % survived by class,4
+P30,Explicit,No,reset,4
+P30,Explicit,No,"compared to all survived, what is the % of sex and class who survived?",5
+P31,Explicit,No,Who survived by sex?,1
+P31,Explicit,No,Percent survived by sex?,1
+P31,Explicit,No,percent survived by class?,1
+P31,Explicit,No,reset,1
+P31,Explicit,No,what was the average fare per class?,2
+P31,Explicit,No,reset,2
+P31,Explicit,No,what percent of passengers by class and what percent of passengers survived by fare?,3
+P31,Explicit,No,reset,3
+P31,Explicit,No,what percentage of passengers survived that had parents and/or children aboard,4
+P31,Explicit,No,what about people with siblings and/or spouses,4
+P31,Explicit,No,what class were they in?,4
+P31,Explicit,No,reset,4
+P31,Explicit,No,what percentage of passengers survived based on age?,5
+P31,Explicit,No,what about passengers that had childern and/or parents?,5
+P31,Explicit,No,reset,5
+P31,Explicit,No,what percentage of passengers survived by sex?,6
+P31,Explicit,No,what were their ages?,6
+P34,Explicit,No,Age of people who will likely survive?,1
+P34,Explicit,No,how many male will survived?,1
+P34,Explicit,No,what class of peopple survived?,1
+P34,Explicit,No,reset,1
+P34,Explicit,No,how many parents survived?,2
+P34,Explicit,No,reset,2
+P34,Explicit,No,how many parents survived?,3
+P34,Explicit,No,what percentage of parents survived?,3
+P35,Explicit,No,How many passengers were there?,1
+P35,Explicit,No,How many survived?,1
+P35,Explicit,No,Cut survived/not-survived by age bin,1
+P35,Explicit,No,clear,1
+P35,Explicit,No,with survived/non-survived who me percentage across age bin,2
+P35,Explicit,No,interwave the age bin bars,2
+P35,Explicit,No,clear,2
+P35,Explicit,No,cut passengers by age bin; within each age bin show survived/non-survived side-by-side,3
+P35,Explicit,No,calibrate the passenger count so that I can compared survived-or-not-on a percentage-wise basis,3
+P35,Explicit,No,clear,3
+P35,Explicit,No,"within each age bin, show me survived yes divided by total count of passengers",4
+P35,Explicit,No,show me n-size in the lower axis,4
+P35,Explicit,No,show me n-size in the lower axis by class,4
+P35,Explicit,No,show me n-size in the lower axis by fare bin,4
+P35,Explicit,No,go back to the last one,4
+P36,Implicit,No,how many people were on the titanic,1
+P36,Implicit,No,how many women survived?,1
+P36,Implicit,No,how many females were on the titanic,1
+P36,Implicit,No,what was the percentage of female survivors?,1
+P36,Implicit,No,what was the percentage of male survivors?,1
+P36,Implicit,No,our of  female survivors how many were under 18 years old?,1
+P36,Implicit,No,what was their percentage,1
+P36,Implicit,No,out of female survivors what was the percentage above 18?,1
+P36,Implicit,No,how many had a sibling or a spouse?,1
+P36,Implicit,No,without sibiling and spouse,1
+P36,Implicit,No,out of female survivors who were 18 how many had parents and children?,2
+P36,Implicit,No,what is the percentage of female suvivors without siblings or children or parent out of entire families shown by age,3
+P30,Implicit,No,show me number of survived passengers group by age (bin),1
+P30,Implicit,No,show me percentage of passengers survived instead,1
+P30,Implicit,No,show me percentage of passengers survived grouped by age and sex,1
+P30,Implicit,No,show me percentage of passengeres survived froup by Fare bin and Class and parents andor children aboard,2
+P30,Implicit,No,show me percentage of passengers survived group by siblings and/or spouses aboard and age bin,3
+P40,Explicit,No,number of surviving passengers who were male,1
+P40,Explicit,No,and passengers who were female,1
+P40,Explicit,No,number of surviving passengers were male over the fare,1
+P40,Explicit,No,age of passengers that survived,2
+P40,Explicit,No,number of surviving passengers that had children,2
+P40,Explicit,No,reset,2
+P40,Explicit,No,how many femalse wit ha fare of more than $300 survived,3
+P40,Explicit,No,reset,3
+P40,Explicit,No,number of passengers over the fare bin,4
+P40,Explicit,No,fare bin for each cass,4
+P40,Explicit,No,average of fare bins for each class,4
+P40,Explicit,No,reset,4
+P40,Explicit,No,age bin of femalse versus males,5
+P40,Explicit,No,take out class and fare bins,5
+P40,Explicit,No,reset,5
+P40,Explicit,No,suvivors that have spouses,6
