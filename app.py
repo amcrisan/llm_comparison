@@ -10,6 +10,12 @@ import os
 import sys
 import io
 
+#image handling
+import io
+import base64
+from IPython import display
+import matplotlib.pyplot as plt
+
 ### variables
 #list files in workspace/convos and extract the PIDs int o a list
 pids = [file.split('_', 1)[0] for file in os.listdir('./workspace/convos')]
@@ -55,6 +61,11 @@ with st.sidebar:
 #unique utterance ids
 utterance_ids = show_convo['utt_id'].unique()
 
+#keep context in chunk for Code Interpreter
+#note that this doesn't work for all conversation option
+if not all_convo:
+     context = ''
+
 for utt_id in utterance_ids:
      utt = show_convo[show_convo['utt_id']==utt_id]
      user = utt[utt['role']=='user']
@@ -71,20 +82,29 @@ for utt_id in utterance_ids:
           for i in range(n_assistants):
                with cols[i]:
                     model = assistants['model'].values[i]
-                    if model == "gpt4":
-                         model = "🤖 GPT-4"
+                    if model == "CI":
+                         model = "🤖 Code Interpreter"
+                    elif model == "gpt3":
+                         model = "🤖 GPT-3"
                     else:
                          model = "🦙 Code LLama"
 
                     st.markdown(f"<p style='text-align:center;'><strong>{model}</strong></p>", unsafe_allow_html=True)
+                    
                     if assistants['content'].values[i].startswith("ERROR"):
-                          st.write("Could not execute code")
+                          st.write("Error Detected! Could not execute code")
+                    elif assistants['content'].values[i].startswith("TEXT"):
+                         st.write(assistants['content'].values[i])
                     else:
-                         st.pyplot(exec(assistants['content'].values[i]))
-                        
 
-            
-
-
-             
-        
+                         if model == "CI":
+                              try:
+                                   st.pyplot(exec(assistants['content'].values[i]))
+                                   context += assistants['content'].values[i]
+                              except:
+                                   st.write("failed to executed CI code")
+                         else:
+                              try: 
+                                   st.pyplot(exec(assistants['content'].values[i]))  
+                              except:
+                                   st.write(assistants['content'].values[i])
