@@ -38,11 +38,15 @@ def format_prompt(convo,HF_API_KEY=None, primer = None):
 def call_codellama(convo,
                    hf_inf,
                    gen_kwargs,
-                   primer=None,
-                   primer_code=None):
+                   primer= None,
+                   primer_code=''):
     #calling Code LLama
     prompt = format_prompt(convo,primer)
     stream = hf_inf.text_generation(prompt, stream=False, details=True, **gen_kwargs)
+
+    if primer_code is None:
+        return(format_response(stream.generated_text.strip()))
+
     response = primer_code + format_response(stream.generated_text.strip())
     
     return response
